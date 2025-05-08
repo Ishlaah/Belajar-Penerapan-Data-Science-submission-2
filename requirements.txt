@@ -1,8 +1,8 @@
-numpy==1.24.4
-pandas==2.1.4
-matplotlib==3.7.5
-seaborn==0.13.2
-scikit-learn==1.4.0
-SQLAlchemy==2.0.30
-streamlit==1.36.0
-scikit-learn==1.6.1
+numpy
+pandas
+matplotlib
+seaborn
+scikit-learn
+SQLAlchemy
+streamlit
+scikit-learn
