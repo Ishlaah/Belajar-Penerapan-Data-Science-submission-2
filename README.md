@@ -51,7 +51,7 @@ Apabila menginstal Python melalui Anaconda ataupun miniconda, Anda dapat menggun
 7. Masukkan data yang ingin diprediksi pada variabel X_new
 8. Tekan tombol run code
 9. Hasil prediksi akan keluar
-10. Untuk linknya sebagai berikut : 
+10. Untuk linknya sebagai berikut : https://belajar-penerapan-data-science-submission-2-gxty8wwvjpwls9v8as.streamlit.app/
 
 
 ## Business Dashboard
@@ -60,18 +60,6 @@ Dashboard bisnis ini dibuat untuk memberikan prediksi terkait kemungkinan seoran
 Dashboard ini menampilkan berbagai kolom input yang mewakili faktor-faktor yang berpotensi mempengaruhi keputusan mahasiswa untuk melakukan dropout, seperti mode aplikasi, mata kuliah yang diambil, kualifikasi sebelumnya, pekerjaan ibu dan ayah, serta faktor-faktor akademik lainnya. Selain itu, dashboard ini memberikan hasil prediksi berdasarkan model yang telah disimpan sebelumnya, yang memungkinkan pengguna untuk mendapatkan gambaran yang lebih baik tentang potensi dropout mahasiswa.
 
 Melalui dashboard ini, diharapkan Jaya Jaya Institut dapat mengambil tindakan preventif lebih awal untuk mengurangi tingkat dropout mahasiswa dan meningkatkan kesuksesan akademis mereka.
-
-## Menjalankan Sistem Machine Learning 
-Notebook ini menyusun alur klasik sebuah proyek data science:
-1. Memahami masalah dan data
-2. Persiapan data dengan preprocessing
-3. Analisis data dengan EDA
-4. Proses modelling dimulai dengan mengubah output target enrolled dan graduate akan disatukan menjadi '1' dan output target dropout akan menjadi '0'
-5. Karena data target timpang maka akan melakukan teknik undersampling untuk target yang outputnya 1
-6. Melakukan spliting data dengan rasio 80% untuk train dan 20% untuk testing
-7. Melakukan pemodelan menggunakan algoritma Random Forest
-8. Melakukan evalusi model dengan precision, recall, f1-score, dan confusion matrix
-9. Menyimpan model ke dalam file .pkl
 
 ## Conclusion
 Dropout mahasiswa di Jaya Jaya Institut dipengaruhi oleh berbagai faktor yang dapat dikelompokkan ke dalam demografis mahasiswa, latar belakang pendidikan, keadaan ekonomi, keluarga dan latar belakang sosial, serta prestasi akademik. Mahasiswa yang lebih tua saat age at enrollment, berasal dari kategori "over 23 years old" atau "transfer" dalam application mode, mengambil mata kuliah manajemen pada malam hari atau teknik informatika, memiliki nilai admission grade yang rendah, dan tidak mendapatkan beasiswa cenderung lebih berisiko untuk dropout. Selain itu, mahasiswa dengan latar belakang keluarga yang kurang mendukung, terutama yang ibu dan ayahnya memiliki kualifikasi pendidikan yang tidak diketahui, juga menunjukkan kecenderungan dropout yang lebih tinggi. Mahasiswa yang dropout umumnya memiliki prestasi akademik yang lebih rendah
